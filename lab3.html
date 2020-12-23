@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS</title>
+</head>
+<body>
+<div>
+<img id="img" src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Blank.jpg" alt="da">
+</div>
+<p></p>
+<label for="c1">Отобразить картинку</label>
+<p><select id="c1" onclick="draw()">
+    <option>Отобразить</option>
+</select></p>
+
+<label for="cWidth">Ширина изображения</label>
+<input type="range" min="20" max="2000" value="1046" id="cWidth">
+
+<label for="cHeight">Высота изображения</label>
+<input type="range" min="20" max="2000" value="589" id="cHeight">
+
+<label for="border">Толщина рамки</label>
+<input type="range" min="0" max="20" value="10" id="border">
+
+<label for="textbox">Введите новый альтернативный текст</label>
+<input type="text" id="textbox">
+<a href="index.html#main">На главную</a>
+</body>
+<script src="imagescript.js"></script>
+</html>
